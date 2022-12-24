@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0DB887"
+    tools:context=".Quiz">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:text="cscs"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/question_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radio_group"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:text="Java dasturlash tilimi ?"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="30dp">
+
+        <RadioButton
+            android:id="@+id/variant1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="varint1" />
+
+        <RadioButton
+            android:id="@+id/variant2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="varint1" />
+
+        <RadioButton
+            android:id="@+id/variant3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="varint1" />
+
+        <RadioButton
+            android:id="@+id/variant4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="varint1" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/black"
+        android:text="Next"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Contact with us"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/web"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+
+            android:backgroundTint="@color/black"
+            android:text="Our website"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</RelativeLayout>
