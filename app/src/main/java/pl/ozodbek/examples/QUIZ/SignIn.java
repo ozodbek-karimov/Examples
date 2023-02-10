@@ -1,4 +1,4 @@
-package pl.ozodbek.examples.QUIZ;
+package pl.ozodbek.examples.Quiz;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -20,10 +20,11 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.util.List;
 
+import pl.ozodbek.examples.Models.UserData;
+import pl.ozodbek.examples.Parcelable.ParcelableVersion;
 import pl.ozodbek.examples.R;
 import pl.ozodbek.examples.Singleton.MyGson;
 import pl.ozodbek.examples.Singleton.MySharedPreferences;
-import pl.ozodbek.examples.UserData;
 
 public class SignIn extends AppCompatActivity {
     private Button signin, signup;

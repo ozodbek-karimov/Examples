@@ -1,4 +1,4 @@
-package pl.ozodbek.examples.QUIZ;
+package pl.ozodbek.examples.Quiz;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.List;
 
+import pl.ozodbek.examples.Parcelable.ParcelableVersion;
+import pl.ozodbek.examples.Quiz.Questions;
 import pl.ozodbek.examples.R;
 
 public class Quiz extends AppCompatActivity {

@@ -4,49 +4,56 @@
     android:id="@+id/relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D500F9"
+    android:background="#00B8D4"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".Examples.Switch">
 
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
-    <com.google.android.material.progressindicator.LinearProgressIndicator
-        android:id="@+id/linearProgress"
-        android:layout_width="match_parent"
-
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp" />
-
-    <SeekBar
+    <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp" />
+        android:layout_margin="15dp"
+        android:hint="Name"
+        android:inputType="textPersonName" />
 
-    <RatingBar
-        style="@style/Widget.AppCompat.RatingBar"
-        android:layout_width="wrap_content"
-        android:background="#fff"
-        android:isIndicator="true"
-        android:numStars="6"
-        android:layout_margin="20dp"
-        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/surename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="SureName"
+        android:inputType="textPersonName" />
 
-    <RatingBar
-        style="@style/Widget.AppCompat.RatingBar.Indicator"
-        android:layout_width="wrap_content"
-        android:background="#fff"
-        android:layout_margin="20dp"
-        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="Massage"
+        android:inputType="textMultiLine" />
 
-    <RatingBar
-        style="@style/Widget.AppCompat.RatingBar.Small"
+    <CheckBox
+        android:id="@+id/male"
         android:layout_width="wrap_content"
-        android:background="#fff"
-        android:layout_margin="20dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Male" />
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female" />
+
+    <Button
+        android:id="@+id/incr"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
 </LinearLayout>

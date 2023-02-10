@@ -24,4 +24,31 @@
         natural environment after us. To do this, we need to pay attention to nature, think not only
         of today, but also of the near and distant future.
     </string>
+    <string name="start_time">Start time</string>
+    <string name="location">Location</string>
+
+
+    <string-array name="phones">
+
+        <item>Redmi</item>
+        <item>Poco</item>
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>Huawei</item>
+
+    </string-array>
+    <string-array name="countries">
+
+        <item>Uzb</item>
+        <item>Rus</item>
+        <item>Usa</item>
+        <item>Eng</item>
+        <item>Pl</item>
+        <item>Uzb1</item>
+        <item>Rus2</item>
+        <item>Usa3</item>
+        <item>En4g</item>
+        <item>Pl5</item>
+
+    </string-array>
 </resources>
